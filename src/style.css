@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  column-gap: 20px;
+  row-gap: 10px;
+
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+.carton {
+  width: 150px;
+  height: 200px;
+  border: 1px solid gray;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+  
+}
+
+.carton p {
+  margin: 0;
+}
